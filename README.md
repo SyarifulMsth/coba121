@@ -32,3 +32,6 @@ Tujuan utama dari kasus kali ini adalah memprediksi harga diamonds. Harga diamon
 ### Metrik
 Metrik digunakan untuk mengevaluasi seberapa baik model yang telah dibuat untuk memprediksi harga. Untuk kasus regresi, beberapa metrik yang biasanya digunakan adalah Mean Squared Error (MSE) atau Root Mean Square Error (RMSE). Secara umum, metrik ini mengukur seberapa jauh hasil prediksi dengan nilai yang sebenarnya. 
 Pengembangan model akan menggunakan beberapa algoritma machine learning yaitu K-Nearest Neighbor, Random Forest, dan Boosting Algorithm. Dari ketiga model ini, akan dipilih satu model yang memiliki nilai kesalahan prediksi terkecil.
+
+## Data Understanding 
+Data yang Anda gunakan pada proyek kali ini adalah Diamond dataset yang diunduh dari [repository GitHub ggplot](https://github.com/tidyverse/ggplot2/tree/master/data-raw). Dataset ini memiliki 53.940 jenis diamonds dengan berbagai karakteristik dan harga. Karakteristik yang dimaksud di sini adalah fitur non-numerik seperti cut, color, dan clarity, serta fitur numerik seperti carat, x, y, z, table, dan depth. Kesembilan fitur ini adalah fitur yang akan Anda gunakan dalam menemukan pola pada data, sedangkan harga merupakan fitur target.
