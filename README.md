@@ -1,4 +1,4 @@
-# Predictive Analytics Portfolio Project: Case Study of Diamond Price Prediction💎	
+# [On-Progress] Predictive Analytics Portfolio Project: Case Study of Diamond Price Prediction💎	
 
 Predictive Analytics Lifecycle (CRISP-DM):
   1. Business Understanding
