@@ -17,7 +17,7 @@ Tentu saja semua bisnis mengejar profit. Oleh karena itu, penting bagi perusahaa
 
 Tidak seperti emas yang harga jual dan belinya mengacu pada harga perdagangan emas dunia, harga diamonds dipengaruhi oleh beberapa fitur khusus. Fitur tersebut antara lain, karat, ukuran, bentuk potongan, warna, serta tingkat kejernihan diamonds. Tidak adanya acuan harga diamonds seperti acuan harga emas menyebabkan perusahaan memerlukan sistem untuk memprediksi harganya.
 
-### Problem Statements dan Goals
+## Problem Statements dan Goals
 Berdasarkan kondisi yang telah diuraikan sebelumnya, perusahaan akan mengembangkan sebuah sistem prediksi harga diamonds untuk menjawab permasalahan berikut.
 
 Dari serangkaian fitur yang ada, fitur apa yang paling berpengaruh terhadap harga diamonds?
@@ -28,10 +28,3 @@ Untuk menjawab pertanyaan tersebut, maka diperlukan predictive modelling dengan 
 
 ### Metodologi
 Tujuan utama dari kasus kali ini adalah memprediksi harga diamonds. Harga diamonds merupakan variabel kontinu dalam predictive analytics, sehingga ini merupakan permasalahan regresi. Oleh karena itu, metodologi pada proyek ini yaitu model regresi dengan harga diamonds sebagai target.
-
-### Metrik
-Metrik digunakan untuk mengevaluasi seberapa baik model yang telah dibuat untuk memprediksi harga. Untuk kasus regresi, beberapa metrik yang biasanya digunakan adalah Mean Squared Error (MSE) atau Root Mean Square Error (RMSE). Secara umum, metrik ini mengukur seberapa jauh hasil prediksi dengan nilai yang sebenarnya. 
-Pengembangan model akan menggunakan beberapa algoritma machine learning yaitu K-Nearest Neighbor, Random Forest, dan Boosting Algorithm. Dari ketiga model ini, akan dipilih satu model yang memiliki nilai kesalahan prediksi terkecil.
-
-## Data Understanding 
-Data yang Anda gunakan pada proyek kali ini adalah Diamond dataset yang diunduh dari [repository GitHub ggplot](https://github.com/tidyverse/ggplot2/tree/master/data-raw). Dataset ini memiliki 53.940 jenis diamonds dengan berbagai karakteristik dan harga. Karakteristik yang dimaksud di sini adalah fitur non-numerik seperti cut, color, dan clarity, serta fitur numerik seperti carat, x, y, z, table, dan depth. Kesembilan fitur ini adalah fitur yang akan Anda gunakan dalam menemukan pola pada data, sedangkan harga merupakan fitur target.
